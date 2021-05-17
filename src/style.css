@@ -1,3 +1,30 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+
+.container,
+.row,
+.col-md-4 {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  border: 2px solid red;
+}
+
+.row {
+  flex-basis: 100%;
+  margin: 10px;
+  border: 2px solid blue;
+  display: flex;
+}
+
+.col-md-4 {
+  margin: 10px;
+  flex-basis: 33%;
+  border: 2px solid green;
+  text-align: center;
 }

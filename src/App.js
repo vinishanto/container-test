@@ -2,10 +2,5 @@ import React from 'react';
 import './style.css';
 
 export default function App() {
-  return (
-    <div class="row">
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
-  );
+  return <div>Welcome to the GC container test</div>;
 }
